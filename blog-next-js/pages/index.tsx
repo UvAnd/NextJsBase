@@ -11,8 +11,6 @@ import { Container, Card, Row, Grid, Button, Text, Image } from '@nextui-org/rea
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home({home, articles}: { home: IHome, articles: IArticale[]}) {
-  console.log('article');
-  console.log(articles);
 
   const bannerHeight = 300;
   return (
